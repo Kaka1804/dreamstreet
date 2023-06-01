@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    
+}
+  
+header{
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    position: fixed;
+    background: transparent;
+    transition: all .35s ease;
+    background-color: #111;
+    padding: 14px 14%;
+}
+
+.banner {
+    background-color: #111;
+    padding: 2px;
+    text-align: center;
+  }
+  
+  .banner img {
+    height: 900px;
+    width: 100%;
+  }
+
+.logo img{
+    display: flex;
+    width: 100px;
+    margin: 10px;
+    border-radius: 50%;
+    margin-right: 165px;
+}
+.logo{
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.cabeçalho-link{
+    display: flex;
+    gap: 3rem;   
+    margin-right: 155px; 
+}
+
+.cabeçalho-link a{
+    color: #fff;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+.cabeçalho-link a:hover{
+    color: #555;
+}
+
+.icon span{
+    font-size: 2rem;
+    cursor: pointer;
+    color: #fff;
+    margin-left: 100px;
+}
+
+.icon span:hover{
+    color: #555;
+}
+
+.icon2 span{
+    font-size: 45px;
+    cursor: pointer;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.icon2 span:hover{
+    color: #555;
+}
+
+.img span:hover{
+    color: #fff;
+}
+
+.compra {
+    margin-top: 20px;
+    color: #555;
+    width: 100px;
+    height: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Container-roupas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+    text-align: left;
+    margin-top: 3rem;
+}
+
+.Container-roupas img:hover{
+    transform: scale(0.9) translateY(-5px);
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+.roupa img{
+    width: 250px;
+    height: auto;
+}
+
+.roupa{
+    background: #eee;
+    color: #111;
+}
+
+.roupa p {
+  margin-bottom: 8px;
+}
+
+.roupa h5 {
+    color: #ff1493;
+    font-size: 18px;
+}
+
+.Container-roupas1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+    text-align: left;
+    margin-top: 3rem;
+}
+
+.Container-roupas1 img:hover{
+    transform: scale(0.9) translateY(-5px);
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+.roupa img{
+    width: 250px;
+    height: auto;
+}
+
+.roupa{
+    background: #eee;
+    color: #111;
+}
+
+.roupa p {
+  margin-bottom: 8px;
+}
+
+.roupa h5 {
+    color: #ff1493;
+    font-size: 18px;
+}
+
+.Container-roupas2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+    text-align: left;
+    margin-top: 3rem;
+}
+
+.Container-roupas2 img:hover{
+    transform: scale(0.9) translateY(-5px);
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+.roupa img{
+    width: 250px;
+    height: auto;
+}
+
+.roupa{
+    background: #eee;
+    color: #111;
+}
+
+.roupa p {
+  margin-bottom: 8px;
+}
+
+.roupa h5 {
+    color: #ff1493;
+    font-size: 18px;
+}
+
+.Container-roupas3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+    text-align: left;
+    margin-top: 3rem;
+}
+
+.Container-roupas3 img:hover{
+    transform: scale(0.9) translateY(-5px);
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+.roupa img{
+    width: 250px;
+    height: auto;
+}
+
+.roupa{
+    background: #eee;
+    color: #111;
+}
+
+.roupa p {
+  margin-bottom: 8px;
+}
+
+.roupa h5 {
+    color: #ff1493;
+    font-size: 18px;
+}
+
+
+#Contato{
+    display: flex;
+    gap: 5rem;
+    justify-content: space-around;
+    background-color: #111;
+    padding: 8rem;
+    margin-top: 5rem;
+    display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+}
+
+.meio-contato h3{
+    color: #fff;
+    font-size: 23px;
+    margin-bottom: 1.6rem;
+}
+
+.meio-contato h5{
+    font-size: 15px;
+    font-weight: 600;
+    color: #555;
+}
+
+.meio-contato li{
+    margin-bottom: 15px;
+}
+
+.meio-contato li a{
+    display: block;
+    color: #555;
+    font-weight: 600;
+    transition: all .35s ease;
+}
+
+.last-text{
+    text-align: center;
+    background-color: #555;
+    color: #fff;
+}

@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    
+}
+  
+header {
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    z-index: 1000;
+    background: transparent;
+    transition: all .35s ease;
+    background-color: #111;
+    padding: 14px 14%;
+}
+
+.banner {
+    background-color: #111;
+    padding: 2px;
+    text-align: center;
+  }
+  
+  .banner img {
+    height: 900px;
+    width: 100%;
+  }
+
+  .logo img{
+    display: flex;
+    width: 100px;
+    margin: 10px;
+    border-radius: 50%;
+    margin-right: 165px;
+}
+.logo{
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.cabeçalho-link{
+    display: flex;
+    gap: 3rem;   
+    margin-right: 155px; 
+}
+
+.cabeçalho-link a{
+    color: #fff;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+.cabeçalho-link a:hover{
+    color: #555;
+}
+
+.icon span{
+    font-size: 38px;
+    cursor: pointer;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.icon span:hover{
+    color: #555;
+}
+
+.icon2 span{
+    font-size: 45px;
+    cursor: pointer;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.icon2 span:hover{
+    color: #555;
+}
+
+
+.img span:hover{
+    color: #fff;
+}
+
+.Meio{
+    padding: 7rem 0 0 8.5rem;
+    line-height: 4rem;
+}
+
+.Meio h1{
+    font-size: 4rem;
+    color: #fff;
+    
+}
+
+.Meio p{
+    color: #fff;
+}
+
+.Meio button{
+    background-color: #555;
+    padding: 1rem 3rem 1rem 3rem;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+   font-size: 1rem;
+   cursor: pointer;
+   transition: 0.3s;
+
+}
+
+.Meio button:hover{
+      background-color: #111;
+      transform: scaleY(1.2);
+}
+
+section {
+    padding-top: 7rem;
+}
+
+section h1{
+    align-items: center;
+    text-align: center;
+    font-size: 2rem;
+
+}
+
+.Container-card-1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding-top: 2rem;
+   
+}
+
+.cards img{
+    width: 450px;
+    height: auto;
+    transition: 0.35s ease;
+    
+}
+
+.cards img:hover{
+     transform: scale(0.9) translateY(-5px);
+     cursor: pointer;
+   
+     
+}
+
+.cta{
+    height: 60vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.text-cta{
+    padding-left: 5rem;
+}
+
+.text-cta h6{
+    font-size: 17px;
+	font-weight: 500;
+	letter-spacing: .6px;
+	margin-bottom: 14px;
+
+}
+
+.text-cta h4{
+    font-size: 3.3rem;
+	line-height: 1.2;
+	letter-spacing: .6rem;
+	margin-bottom: 30px;
+}
+
+.text-cta a{
+    background-color: #555;
+    padding: 1rem 3rem 1rem 3rem;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+   font-size: 1rem;
+   cursor: pointer;
+   transition: 0.3s;
+}
+
+.text-cta a:hover{
+    background-color: #111;
+      transform: scaleY(1.2);
+
+}
+
+.Container-roupas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+    text-align: left;
+    margin-top: 3rem;
+    
+}
+
+.Container-roupas img:hover{
+    transform: scale(0.9) translateY(-5px);
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+.roupa img{
+    width: 250px;
+    height: auto;
+}
+
+.roupa{
+    background: #eee;
+    color: #111;
+}
+
+.roupa p {
+  margin-bottom: 8px;
+}
+
+.roupa h5 {
+    color: #ff1493;
+    font-size: 18px;
+}
+
+.Marcas{
+    margin-top: 10rem;
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+}
+
+.Marcas img{
+    width: 180px;
+    height: auto;
+    background-color: aliceblue;
+}
+
+#Contato{
+    display: flex;
+    gap: 5rem;
+    justify-content: space-around;
+    background-color: #111;
+    padding: 8rem;
+    margin-top: 5rem;
+    display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+}
+
+.meio-contato h3{
+    color: #fff;
+    font-size: 23px;
+    margin-bottom: 1.6rem;
+}
+
+.meio-contato h5{
+    font-size: 15px;
+    font-weight: 600;
+    color: #555;
+}
+
+.meio-contato li{
+    margin-bottom: 15px;
+}
+
+.meio-contato li a{
+    display: block;
+    color: #555;
+    font-weight: 600;
+    transition: all .35s ease;
+}
+
+.last-text{
+    text-align: center;
+    background-color: #555;
+    color: #fff;
+}
