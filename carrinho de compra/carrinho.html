@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="carrinho.css">
+    <title>Dream Street</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="/img/Dreamlogo.png" alt="Logo da Loja">
+        </div>
+        <!--logo-->
+
+        <div class="cabeçalho-link">
+            <li>
+                <a href="/index.html">Inicio</a>
+            </li>
+            <li>
+                <a href="#">Destaque</a>
+            </li>
+            <li>
+                <a href="#">Novo</a>
+            </li>
+            <li>
+                <a href="#">Contato</a>
+            </li>
+        </div>
+        <!--cabeçalho-link-->
+        <!--icon-->
+        <div class="icon">
+            <a href="/carrinho de compra/carrinho.html"><span>
+                    <ion-icon name="bag-outline"></ion-icon>
+                </span></a>
+        </div>
+        <div class="icon2">
+            <a href="/cadastro/cadastro.html"><span>
+                    <ion-icon name="person-circle-outline"></ion-icon>
+                </span></a>
+        </div>
+    </header>
+
+    <main>
+        <div class="page-title">Seu Carrinho</div>
+        <div class="content">
+            <section>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Produto</th>
+                            <th>Preço</th>
+                            <th>Quantidade</th>
+                            <th>Total</th>
+                            <th>-</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class="produto">
+                                    <img src="https://picsum.photos/100/120" alt="">
+                                    <div class="info">
+                                        <div class="nome">nome do produto</div>
+                                        <div class="categoria">nome do produto</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>R$ 120</td>
+                            <td>
+                                <div class="qty">
+                                    <button>
+                                        <ion-icon name="remove-outline"></ion-icon>
+                                    </button>
+                                    <span>1</span>
+                                    <button>
+                                        <ion-icon name="add-outline"></ion-icon>
+                                    </button>
+                                </div>
+                            </td>
+                            <td>R$ 240</td>
+                            <td><button class="remove">
+                                    <ion-icon name="close-outline"></ion-icon>
+                                </button></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="produto">
+                                    <img src="https://picsum.photos/100/120" alt="">
+                                    <div class="info">
+                                        <div class="nome">nome do produto</div>
+                                        <div class="categoria">nome do produto</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>R$ 120</td>
+                            <td>
+                                <div class="qty">
+                                    <button>
+                                        <ion-icon name="remove-outline"></ion-icon>
+                                    </button>
+                                    <span>1</span>
+                                    <button>
+                                        <ion-icon name="add-outline"></ion-icon>
+                                    </button>
+                                </div>
+                            </td>
+                            <td>R$ 240</td>
+                            <td><button class="remove">
+                                    <ion-icon name="close-outline"></ion-icon>
+                                </button></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="produto">
+                                    <img src="https://picsum.photos/100/120" alt="">
+                                    <div class="info">
+                                        <div class="nome">nome do produto</div>
+                                        <div class="categoria">nome do produto</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>R$ 120</td>
+                            <td>
+                                <div class="qty">
+                                    <button>
+                                        <ion-icon name="remove-outline"></ion-icon>
+                                    </button>
+                                    <span>1</span>
+                                    <button>
+                                        <ion-icon name="add-outline"></ion-icon>
+                                    </button>
+                                </div>
+                            </td>
+                            <td>R$ 240</td>
+                            <td><button class="remove">
+                                    <ion-icon name="close-outline"></ion-icon>
+                                </button></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="produto">
+                                    <img src="https://picsum.photos/100/120" alt="">
+                                    <div class="info">
+                                        <div class="nome">nome do produto</div>
+                                        <div class="categoria">nome do produto</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>R$ 120</td>
+                            <td>
+                                <div class="qty">
+                                    <button>
+                                        <ion-icon name="remove-outline"></ion-icon>
+                                    </button>
+                                    <span>1</span>
+                                    <button>
+                                        <ion-icon name="add-outline"></ion-icon>
+                                    </button>
+                                </div>
+                            </td>
+                            <td>R$ 240</td>
+                            <td><button class="remove">
+                                    <ion-icon name="close-outline"></ion-icon>
+                                </button></td>
+                        </tr>
+                </table>
+            </section>
+            <aside>
+                <div class="box">
+                    <header>Resumo da compra</header>
+                    <div class="infor">
+                        <div><span>Sub-total</span><span>R$400</span></div>
+                        <div><span>Frete</span><span>Gratis </span></div>
+                        <div><button>Adicionar botão de desconto <ion-icon name="arrow-forward-outline"></ion-icon>
+                                </button></div>
+                    </div>
+                    <footer>
+                        <span>Total</span>
+                        <span>R$ 400</span>
+                    </footer>
+                </div>
+                <button id="finish">finalizar compra</button>
+            </aside>
+        </div>
+    </main>
+
+    <footer class="Contato" id="Contato">
+        <div class="meio-contato">
+            <h3>Dream Street</h3>
+            <h5>Nós envie uma mensagem</h5>
+            <div class="icons">
+                <a href="#"><i class='bx bxl-facebook-square'></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+            </div>
+        </div>
+
+        <div class="meio-contato">
+            <h3>Explorar</h3>
+            <li><a href="#Lar">Lar</a></li>
+            <li><a href="#featured">Destaque</a></li>
+            <li><a href="#Novo">Novo</a></li>
+            <li><a href="#Contato">Contato</a></li>
+        </div>
+
+        <div class="meio-contato">
+            <h3>Nossos Serviços</h3>
+            <li><a href="/Dream Stret/Ecommerce/Website ecommerce - agora/index.html">Pricing</a></li>
+            <li><a href="#">Frete Grátis</a></li>
+            <li><a href="#">Cartões-presente</a></li>
+        </div>
+
+        <div class="meio-contato">
+            <h3>Compras</h3>
+            <li><a href="#">Loja de Roupas</a></li>
+            <li><a href="#">Camisas em altas</a></li>
+            <li><a href="#">Acessórioss</a></li>
+            <li><a href="#">Venda</a></li>
+        </div>
+
+    </footer>
+
+    </section>
+
+    <div class="last-text">
+        <p>Copyright © 2022 All rights reserved | This template is made with by Tahmid Ahmed</p>
+    </div>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
