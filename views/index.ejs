@@ -5,21 +5,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
     <title>Dream Street </title>
 </head>
 
 <body>
     <header>
         <div class="logo">
-            <img src="img/Dreamlogo.png" alt="Logo da Loja">
+            <img src="/img/Dreamlogo.png" alt="Logo da Loja">
         </div>
         <!--logo-->
 
         <div class="cabeçalho-link">
             <li>
-                <a href="/index.html">Inicio</a>
+                <a href="/">Inicio</a>
             </li>
             <li>
                 <a href="#">Destaque</a>
@@ -38,27 +38,35 @@
                     <ion-icon name="bag-outline"></ion-icon>
                 </span></a>
         </div>
-        <div class="icon2">
-            <a href="/cadastro/cadastro.html"><span>
-                    <ion-icon name="person-circle-outline"></ion-icon>
-                </span></a>
-        </div>
+        <% if (typeof usuario !=="undefined") { %>
+            <h1>Bem-vindo, <%= usuario.email %>!</h1>
+            <form action="/logout" method="POST">
+                <input type="submit" value="Sair">
+            </form>
+        <% } else { %>
+            <div class="icon2">
+                <a href="/cadastro"><span>
+                        <ion-icon name="person-circle-outline"></ion-icon>
+                    </span></a>
+            </div>
+        <% } %>
+        
     </header>
 
     <div class="banner">
-        <img src="img/background.png" alt="Banner">
+        <img src="/img/background.png" alt="Banner">
     </div>
 
     <section>
         <h1><i>CATEGORIAS</i></h1>
         <div class="Container-card-1">
             <div class="cards">
-                <img src="img/camisa.jpg">
+                <img src="/img/camisa.jpg">
             </div>
             <!--cards-->
 
             <div class="cards">
-                <img src="img/blusa.jpg">
+                <img src="/img/blusa.jpg">
             </div>
             <!--cards-->
         </div>
@@ -66,12 +74,12 @@
 
         <div class="Container-card-1">
             <div class="cards">
-                <img src="img/cargo.jpg">
+                <img src="/img/cargo.jpg">
             </div>
             <!--cards-->
 
             <div class="cards">
-                <img src="img/colar.jpg">
+                <img src="/img/colar.jpg">
             </div>
             <!--cards-->
         </div>
@@ -91,7 +99,7 @@
             <h1>ESTOQUE NOVOS</h1>
             <div class="Container-roupas">
                 <div class="roupa">
-                    <a href="/produto/produto.html"><img src="img/blusaanti.jpg" alt=""></a>
+                    <a href="/produto"><img src="/img/blusaanti.jpg" alt=""></a>
                     <p>Blusa ANTI-SOCIAL</p>
                     <h5>R$99,90</h5>
                 </div>
