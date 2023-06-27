@@ -49,6 +49,16 @@ app.get("/produto", (req, res) => {
   res.render("produto");
 });
 
+app.get("/compra", (req, res) => {
+  res.render("compra");
+});
+
+
+app.get("/carrinho", (req, res) => {
+  res.render("carrinho");
+});
+
+
 app.get("/login", (req, res) => {
   res.render("login");
 });
